@@ -1,0 +1,14 @@
+.landingPage .wrapper {
+    flex-direction:column;
+    display:flex;
+}
+
+.landingPage .wrapper .userName {
+    margin-bottom: 21px;
+}
+
+.gameTitle{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: -30%;
+}

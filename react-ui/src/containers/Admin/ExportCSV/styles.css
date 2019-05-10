@@ -1,0 +1,117 @@
+.exportExperimentTitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -25%;
+}
+
+.row{
+    margin-bottom: 15%;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.menu-item{
+    font-size: 2vw;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 15%;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #ffffff;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #000000;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    overflow: hidden !important;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #ffffff;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 15%;
+
+}
+
+.exportContainer{
+    width: 100%
+ }
+
+.Exportbutton {
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    border: 2px solid #202020;
+    height:150px; 
+    width:500px; 
+    margin-bottom: 4%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.Exportbutton:hover {
+    background-color: #202020;
+    color: white;
+}
+
+.Deletebutton {
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    border: 2px solid #202020;
+    height:150px; 
+    width:500px; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.Deletebutton:hover {
+    background-color: #202020;
+    color: white;
+}

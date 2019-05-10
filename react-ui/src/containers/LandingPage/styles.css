@@ -1,0 +1,81 @@
+.landingPage .wrapper {
+  flex-direction:column;
+  display:flex;
+  position: relative;
+  bottom: 10em;
+}
+
+.landingPage .instructions {
+  max-width: 38em;
+}
+
+.landingPage .instructionsTitle {
+  padding-bottom: 15px;
+}
+
+.landingPage .instructionsText {
+  padding-top: 15px;
+  max-width: 450px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.landingPage .gameTitle{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: -30%;
+}
+
+.landingPage .instructionsButton{
+  margin-bottom: -30%;
+}
+
+.landingPage input {
+  padding: .5rem;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: .5rem;
+  font-size: 16px;
+  width: 16em;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 3em;
+}
+
+.landingPage input:focus {
+  border-color: #007eff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(0, 126, 255, 0.1);
+  outline: none;
+}
+
+.landingPage input.error {
+  border-color: red;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(255, 0, 0, 0.1);
+}
+
+.landingPage label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.landingPage .input-feedback {
+  color: red;
+  margin-top: .25rem;
+}
+
+.landingPage .joinButton {
+  width: 20em;
+  height: 3em;
+  border-radius: 2.5rem;
+  padding: 0em 0em;
+  font-size: 17px;
+  width: 13em;
+  height: 2.6em;
+}

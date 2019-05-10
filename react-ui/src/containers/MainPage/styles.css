@@ -1,0 +1,51 @@
+.mainPage {
+    height: calc(100% - 80px);
+}
+
+.DoneButton {
+    position: absolute;
+    border-radius: 1.5rem;
+    right: 25px;
+    top: calc(80px - 17px - 50%);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.DoneButton:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+  transition: all 0.5s ease-out;
+}
+
+.DoneButton:focus {
+  outline:0;
+}
+
+.load{
+    padding-top: 15%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.loader {
+    display: flex;
+    margin: 25px auto;
+    border: 16px solid #3b4552;
+    border-top: 16px solid #aab2bd;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+ }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hide-loader{
+display:none;
+}

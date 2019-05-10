@@ -1,0 +1,44 @@
+{
+  "name": "heroku-cra-node",
+  "version": "1.0.0",
+  "description": "Card Trading Experiment Application",
+  "engines": {
+    "node": "8.9.x"
+  },
+  "scripts": {
+    "dev": "nodemon server & cd react-ui/ && npm start",
+    "start": "node server",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "json2csv": "^4.3.0",
+    "lodash": "^4.17.11",
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.39.0",
+    "sequelize-cli": "^5.2.0",
+    "socket.io": "^2.1.1",
+    "sticky-session": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mars/heroku-cra-node.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "nodemon": "^1.18.4"
+  }
+}
